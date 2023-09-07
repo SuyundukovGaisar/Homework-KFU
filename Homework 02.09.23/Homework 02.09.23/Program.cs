@@ -115,8 +115,8 @@ namespace Homework_02._09._23
 
             Console.WriteLine("Задание 8: ");
             Console.WriteLine("Введите трёхзначное число: ");
-            var num = Console.ReadLine();
-            Console.WriteLine($"{num[2]}{num[0]}{num[1]}");
+            var count = Console.ReadLine();
+            Console.WriteLine($"{count[2]}{count[0]}{count[1]}");
 
             Console.WriteLine("Задание 9: ");
             Console.WriteLine("1 кг конфет стоит 250 рублей: ");
