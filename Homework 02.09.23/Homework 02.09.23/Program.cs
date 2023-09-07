@@ -119,18 +119,18 @@ namespace Homework_02._09._23
             Console.WriteLine($"{count[2]}{count[0]}{count[1]}");
 
             Console.WriteLine("Задание 9: ");
-            Console.WriteLine("1 кг конфет стоит 250 рублей: ");
-            Console.WriteLine("1 кг печенья стоит 200 рублей: ");
-            Console.WriteLine("1 кг яблок стоит 150 рублей: ");
-            Console.WriteLine("Введите сколько кг конфет куплено: ");
+            Console.WriteLine("Введите цену за кг и сколько кг конфет куплено(через enter): ");
+            double price_candy = Convert.ToDouble(Console.ReadLine());
             double х = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите сколько кг печенья куплено: ");
+            Console.WriteLine("Введите цену за кг и сколько кг печенья куплено(через enter): ");
+            double price_candy1 = Convert.ToDouble(Console.ReadLine());
             double y = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите сколько кг яблок куплено: ");
+            Console.WriteLine("Введите цену за кг и сколько кг яблок куплено(через enter): ");
+            double price_candy2 = Convert.ToDouble(Console.ReadLine());
             double z = Convert.ToDouble(Console.ReadLine());
-            double х1 = х * 250;
-            double y1 = y * 200;
-            double z1 = z * 150;
+            double х1 = х * price_candy;
+            double y1 = y * price_candy1;
+            double z1 = z * price_candy2;
             double result = х1 + y1 + z1;
             Console.WriteLine("Стоимость всей покупки равна " + result);
 
